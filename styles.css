@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+body {
+  background: var(--article-background-color, #162c35);
+  /* font-family: Arial, sans-serif; */
+  line-height: 1.6;
+  }
+  
+header {
+  padding: 20px;
+  background-color: var(--headers-bg-color, #031a23);
+
+  }
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  color:#fff;
+}
+
+.logo{
+  font-size: 2rem;
+  font-family: 'Handjet', cursive;
+}
+
+nav ul{
+  display:flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 23px;
+  font-size: 1.081rem;
+  cursor: pointer;
+}
+
+#banner {
+  /* background-image: url('https://via.placeholder.com/1500x400'); */
+  background-size: cover;
+  /* background-color: var(--headers-bg-color, #031a23); */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #fff; */
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+}
+
+#how-it-works {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#how-it-works h2 {
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.step {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.step i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.step h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #666;
+}
+
+#testimonials {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial span {
+  font-weight: bold;
+  color: #666;
+}
+
+#footer {
+  background-color: var(--headers-bg-color, #031a23);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+  
